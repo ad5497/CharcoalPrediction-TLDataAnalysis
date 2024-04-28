@@ -1,4 +1,7 @@
-.DS_Store
-data/
-pkl_jar/
 .ipynb_checkpoints/
+.DS_Store
+
+scratch/
+pkl_jar/
+data/**
+!data/info.txt
