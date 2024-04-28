@@ -3,5 +3,4 @@
 
 scratch/
 pkl_jar/
-data/**
-!data/info.txt
+data/*/
