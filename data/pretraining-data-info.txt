@@ -1,9 +1,9 @@
 Pretraining Data Link (can be accessed w/ ftp or http):
 
 - ftp://ftp.ebi.ac.uk/pub/databases/IDR/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-screens-bbbc022
-
 - http://ftp.ebi.ac.uk/pub/databases/IDR/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-screens-bbbc022
 
-Subdirectories in the 2016-01-19-screens-bbbc022/ directory are organized with the pattern: {screen_number}-{class_name}/
+A list of the subdirectories and their respective number of files can be found in NumberOfFilesBBBC022.txt
 
+Subdirectories in the 2016-01-19-screens-bbbc022/ directory are organized with the pattern: {screen_number}-{class_name}/.
 For training, the data needs to be reorganized so that the classes may be merged together. Use ../scripts/merge_classes.py for this.
