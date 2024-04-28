@@ -10,7 +10,7 @@ Subdirectories in the 2016-01-19-screens-bbbc022 directory are organized with th
 
 # Define the source and destination directories
 src_dir = '/scratch/ad5497/data/ftp.ebi.ac.uk/pub/databases/IDR/idr0016-wawer-bioactivecompoundprofiling/2016-01-19-screens-bbbc022'
-dest_dir = '/scratch/ad5497/CharcoalPrediction-TLDataAnalysis/data'
+dest_dir = '/scratch/ad5497/CharcoalPrediction-TLDataAnalysis/data/pretraining-data'
 
 os.makedirs(dest_dir, exist_ok=True)
 
