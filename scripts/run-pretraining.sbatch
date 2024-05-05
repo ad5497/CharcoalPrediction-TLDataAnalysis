@@ -6,7 +6,6 @@
 #SBATCH --account=ds_ua_301_004-2024sp
 #SBATCH --partition=n1s8-v100-2
 #SBATCH --gres=gpu:v100:2
-#SBATCH --time=08:00:00
 #SBATCH --mail-type=END
 #SBATCH --mail-user=ad5497@nyu.edu
 
