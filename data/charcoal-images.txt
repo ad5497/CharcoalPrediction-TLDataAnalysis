@@ -1,0 +1,8 @@
+The charcoal image dataset used for fine-tuning our models was obtained from a professor at NYU (who Ryan knows). It is a dataset of TIF images of charcoal taken under a microscope.
+
+Number of images: 200
+Number of classes: 4
+
+Clases & respective num samples: ["P. coronata": 53, "P. cynaroides": 124, "P. mundii": 51, "P. repens": 45]
+
+As you can see, the dataset is not very large, nor is it very balanced lol. Unfortunately, we still cannot upload it to github.
