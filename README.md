@@ -57,8 +57,11 @@ Transfer learning is a technique where a model trained for a particular task is 
 │   ├── NumberOfFilesBBBC022.txt
 │   ├── charcoal-images.txt
 │   └── pretraining-data-info.txt
+├── model-checkpoints
+│   ├── info.txt
+│   └── load_ckpt_example.ipynb
 ├── notebooks
-│   ├── ADV_PROJECT.ipynb
+│   ├── finetuning-and-evaluation.ipynb
 │   ├── pretraining-subset.ipynb
 │   ├── pretraining-test.ipynb
 │   └── pretraining.ipynb
