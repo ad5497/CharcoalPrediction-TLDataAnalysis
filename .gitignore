@@ -4,3 +4,4 @@
 scratch/
 pkl_jar/
 data/*/
+model-checkpoints/*.pth
