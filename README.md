@@ -39,10 +39,37 @@ Transfer learning is a technique where a model trained for a particular task is 
 
 - **Pre and Post Fine-tuning Analysis**: Generate and compare saliency maps from models pre-trained on both datasets before and after fine-tuning on the charcoal dataset. This comparison will visually demonstrate how dataset characteristics influence feature prioritization and learning.
 
-- **Quantitative Evaluation**: Use metrics such as Intersection over Union (IoU) to quantify the overlap and consistency of salient features, aiding in a robust comparison between different training strategies.
+- ~~**Quantitative Evaluation**: Use metrics such as Intersection over Union (IoU) to quantify the overlap and consistency of salient features, aiding in a robust comparison between different training strategies.~~
 
 ### Evaluation Metrics
 
 - **Performance Indicators**: Precision, Recall, and F1-Score across various classes of charcoal will be measured to evaluate each model's effectiveness.
 
 - **Visual and Assessments**: Use saliency maps for qualitative analysis and overlap metrics for quantitative validation.
+
+
+## Repo Overview
+.
+├── README.md
+├── data
+│   ├── NumberOfFilesBBBC022.txt
+│   ├── charcoal-images.txt
+│   └── pretraining-data-info.txt
+├── model-checkpoints
+│   ├── info.txt
+│   └── load_ckpt_example.ipynb
+├── notebooks
+│   ├── finetuning.ipynb
+│   ├── pretraining-subset.ipynb
+│   ├── pretraining-test.ipynb
+│   └── pretraining.ipynb
+└── scripts
+    ├── dataset_indices.py
+    ├── merge_classes.py
+    ├── pretraining-test.py
+    ├── pretraining.py
+    ├── progress_bar.py
+    ├── run-pretraining-test.sbatch
+    └── run-pretraining.sbatch
+
+The organization of the repo is relatively straightforward. Information about the data files is in data/. Information about the model checkpoints are in model-checkpoints/. Unfortunately these directories do not contain the actual data or model checkpoints due to size constraints. The scripts/ directory contains python scripts of the notebooks along with some utility scripts to make life easier. 
