@@ -49,48 +49,7 @@ Transfer learning is a technique where a model trained for a particular task is 
 
 
 ## Repo Overview
-.
 
-├── README.md
-
-├── data
-
-│   ├── NumberOfFilesBBBC022.txt
-
-│   ├── charcoal-images.txt
-
-│   └── pretraining-data-info.txt
-
-├── model-checkpoints
-
-│   ├── info.txt
-
-│   └── load_ckpt_example.ipynb
-
-├── notebooks
-
-│   ├── finetuning.ipynb
-
-│   ├── pretraining-subset.ipynb
-
-│   ├── pretraining-test.ipynb
-
-│   └── pretraining.ipynb
-
-└── scripts
-
-    ├── dataset_indices.py
-
-    ├── merge_classes.py
-
-    ├── pretraining-test.py
-
-    ├── pretraining.py
-
-    ├── progress_bar.py
-
-    ├── run-pretraining-test.sbatch
-
-    └── run-pretraining.sbatch
+[Repo Tree](https://github.com/your-username/your-repo-name/tree/main)
 
 The organization of the repo is relatively straightforward. Information about the data files is in data/. Information about the model checkpoints are in model-checkpoints/. Unfortunately these directories do not contain the actual data or model checkpoints due to size constraints. The scripts/ directory contains python scripts of the notebooks along with some utility scripts to make life easier. 
