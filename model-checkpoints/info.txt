@@ -1,0 +1,9 @@
+I trained the timm models for ~6 hours with different batch sizes.
+
+One of the models was trained on a subset of 0.20 of the full dataset with a batch size of 128 and learning rate of 1e-4. I think approximately 16 epochs were able to be completed in the 6 hours of training. The best model was the model evaluated at epoch 16
+
+The second model was trained on the full dataset with a batch size of 64 (lemme double check) and learning rate of 1e-3. Only 2 epochs were completed in the 6 hours and the model has not really converged yet. The best model was the model evaluated at epoch 2 and is stored in best_model-epoch_2-acc_0.6018.pth.
+
+The model_state_dicts were saved using torch.save along with training and validation accuracy and loss. It should be straightforward to load the state_dicts for reuse.
+
+Unfortunately, the model checkpoints cannot be stored on github because they are too large. Lemme know if u want them =)
